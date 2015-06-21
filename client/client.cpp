@@ -101,7 +101,7 @@ int main(int argc, char **argv) {
         cerr <<  "Getsockname error." << endl;
         return EXIT_FAILURE;
     }
-    cout << "Local port number = \"" << ntohs(client_addr.sin_port) << "\")." <<endl;
+    cout << "Local port number = \"" << ntohs(client_addr.sin_port) << "\"." <<endl;
 
     /* fill in the server's address and data */
     /* htons() converts a short integer to a network representation */

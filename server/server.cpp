@@ -23,7 +23,9 @@
 using namespace boost::archive;
 using namespace std;
 
+//1 fork
 #define SERVER_FORK 1
+//another pthread
 #define SERVER_PTHREAD 2
 #define DEFAULT_SERVER_TYPE SERVER_PTHREAD
 
@@ -75,21 +77,13 @@ void *thread_function(void *sock) {
 }
 
 int main(int argc, char **argv) {
-    int server_type = DEFAULT_SERVER_TYPE;
+    int server_type = 2;
     if (argc == 2) {
-        if (!strcmp(argv[1], "pthread"))
-            server_type = SERVER_PTHREAD;
-        else if (!strcmp(argv[1], "fork"))
+        if (!strcmp(argv[1], "fork"))
             server_type = SERVER_FORK;
     }
-    else {
-        if (DEFAULT_SERVER_TYPE == SERVER_FORK) cout << "Incorrect type of server. Selected by default: fork." << endl;
-        else if (DEFAULT_SERVER_TYPE == SERVER_PTHREAD) cout << "Incorrect type of server. Selected by default: pthread." << endl;
-        else {
-            cerr << "Incorrect type of server. Selected by default: pthread." << endl;
-            return EXIT_FAILURE;
-        }
-    }
+    cout << "Server type: " << (server_type == SERVER_FORK ? "fork" :"pthread") << "." << endl;
+
     uint16_t port = PORT;    /* port number */
     int rqst;       /* socket accepting the request */
     socklen_t alen;       /* length of address structure */
@@ -143,12 +137,12 @@ int main(int argc, char **argv) {
         printf("Received a connection from: %s port %d.\n",
                inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
 
-        if (!strcmp(argv[1], "fork")) {
+        if (server_type == SERVER_FORK) {
             if (fork() == 0 ) {
                 do_work(rqst, client_number);
                 return EXIT_SUCCESS;
             }
-        } else if (!strcmp(argv[1], "pthread")) {
+        } else {
             pthread_t thread;
             Parameters* par = new Parameters(rqst,client_number);
             pthread_create(&thread, NULL, &thread_function, (void *)par);
