@@ -41,10 +41,9 @@ struct Parameters{
 void do_work(int rqst, long client_number) {
     char buffer[BUF_SIZE];
 
-    // Receiving data
     ssize_t n = recv(rqst, buffer, BUF_SIZE, 0);
     if (n == -1) {
-        perror("ERROR reading from socket");
+        cerr << "ERROR reading from socket." << endl;
         exit(1);
     }
 
@@ -55,24 +54,20 @@ void do_work(int rqst, long client_number) {
 
     dijkstra(g,ser_par->s,p,d);
 
-    // Sending data
+    string res = my_serialize2(d);
 
-    strcpy(buffer,my_serialize2(d).c_str());
+    delete ser_par;
 
-    n = send(rqst, buffer, BUF_SIZE, 0);
+    write(rqst, res.c_str(), res.length());
 
-    if (n == -1) {
-        perror("ERROR writing to socket.");
-        exit(1);
-    }
-
-    shutdown(rqst, 2);    /* close the connection */
+    close(rqst);
     cout << "Client #" <<client_number << ". Work with this client is finished." << endl << endl;
 }
 
 void *thread_function(void *sock) {
     Parameters* par = (Parameters*)sock;
     do_work(par->rqst,par->id);
+    delete par;
     return NULL;
 }
 
@@ -84,27 +79,25 @@ int main(int argc, char **argv) {
     }
     cout << "Server type: " << (server_type == SERVER_FORK ? "fork" :"pthread") << "." << endl;
 
-    uint16_t port = PORT;    /* port number */
-    int rqst;       /* socket accepting the request */
-    socklen_t alen;       /* length of address structure */
-    struct sockaddr_in server_addr;    /* address of this service */
-    struct sockaddr_in client_addr;  /* client's address */
+    uint16_t port = PORT;
+    int rqst;
+    socklen_t alen;
+    struct sockaddr_in server_addr;
+    struct sockaddr_in client_addr;
     int sockoptval = 1;
 
-
-    /* create a TCP/IP socket */
     int svc = socket(AF_INET, SOCK_STREAM, 0);
     if (svc < 0) {
         cerr << "Could not create socket." << endl;
         return EXIT_FAILURE;
     }
     cout << "Socket created." << endl;
-    /* allow immediate reuse of the port */
+
     setsockopt(svc, SOL_SOCKET, SO_REUSEADDR, &sockoptval, sizeof(int));
 
-    /* bind the socket to our source address */
-    memset((char *) &server_addr, 0, sizeof(server_addr));  /* 0 out the structure */
-    server_addr.sin_family = AF_INET;   /* address family */
+
+    memset((char *) &server_addr, 0, sizeof(server_addr));
+    server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(port);
     server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
 
@@ -114,33 +107,27 @@ int main(int argc, char **argv) {
     }
     cout << "Bind done" << endl;
 
-    /* set the socket for listening (queue backlog of 5) */
     if (listen(svc, 5) < 0) {
         cerr <<  "Listen failed." << endl;
         return EXIT_FAILURE;
     }
-    cout << "Listening." << endl;
+    cout << "Listening..." << endl;
     long client_number = 0;
     while (true) {
         while ((rqst = accept(svc,
                               (struct sockaddr *) &client_addr, &alen)) < 0) {
-            /* we may break out of accept if the system call */
-            /* was interrupted. In this case, loop back and */
-            /* try again */
-            if ((errno != ECHILD) && (errno != ERESTART) && (errno != EINTR)) {
-                cerr << "Accept failed" << endl;
-                return EXIT_FAILURE;
-            }
         }
         client_number = client_number + 1;
 
-        printf("Received a connection from: %s port %d.\n",
-               inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
+        cout << "Received a connection from: " << inet_ntoa(client_addr.sin_addr) <<
+        "port " << ntohs(client_addr.sin_port) << "." << endl;
 
         if (server_type == SERVER_FORK) {
             if (fork() == 0 ) {
                 do_work(rqst, client_number);
                 return EXIT_SUCCESS;
+            }else{
+                close(rqst);
             }
         } else {
             pthread_t thread;

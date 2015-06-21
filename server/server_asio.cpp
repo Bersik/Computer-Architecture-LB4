@@ -14,6 +14,8 @@
 using boost::asio::ip::tcp;
 using namespace std;
 
+long client_number = 0;
+
 class tcp_connection
     // Using shared_ptr and enable_shared_from_this
     // because we want to keep the tcp_connection object alive
@@ -40,28 +42,28 @@ public:
 
     void start()
     {
-        cout << "Starting" << endl;
+        client_number++;
+        cout << "Received a connection." << endl;
 
-        // Приймаємо задачу
         char buffer[BUF_SIZE];
         boost::system::error_code error;
 
         size_t len = socket_.read_some(boost::asio::buffer(buffer), error);
-        cout << " Server asio received " << len << endl;
 
-         // Тут ми десеріалізуємо прийняті дані
         ser_parameters *ser_par = deserialize(buffer);
-        graph_t g = ser_par->g;
-        std::vector<vertex_descriptor> p(num_vertices(g));
-        std::vector<int> d(num_vertices(g));
 
-        dijkstra(g,ser_par->s,p,d);
+        std::vector<vertex_descriptor> p(num_vertices(ser_par->g));
+        std::vector<int> d(num_vertices(ser_par->g));
 
-        // Тут ми відправляємо відповідь
+        dijkstra(ser_par->g,ser_par->s,p,d);
+
+
         boost::asio::async_write(socket_, boost::asio::buffer(my_serialize2(d)),
                                  boost::bind(&tcp_connection::handle_write,
                                              shared_from_this(), boost::asio::placeholders::error,
                                              boost::asio::placeholders::bytes_transferred));
+        delete ser_par;
+        cout << "Client #" <<client_number << ". Work with this client is finished." << endl << endl;
     }
 
 
@@ -69,8 +71,7 @@ private:
     tcp_connection(boost::asio::io_service& io_service) : socket_(io_service)
     {
     }
-    // handle_write() is responsible for any further actions
-    // for this client connection.
+
     void handle_write(const boost::system::error_code& /*error*/,
                       size_t /*bytes_transferred*/)
     {
@@ -82,33 +83,28 @@ private:
 class tcp_server
 {
 public:
-    // Constructor: initialises an acceptor to listen on TCP port 13.
+
     tcp_server(boost::asio::io_service& io_service)
             : acceptor_(io_service, tcp::endpoint(tcp::v4(), PORT))
     {
-        // start_accept() creates a socket and
-        // initiates an asynchronous accept operation
-        // to wait for a new connection.
+
         start_accept();
     }
 
 private:
     void start_accept()
     {
-        cout << "Starting accept" << endl;
-        // creates a socket
+        cout << "Starting accept." << endl;
+
         tcp_connection::pointer new_connection =
                 tcp_connection::create(acceptor_.get_io_service());
 
-        // initiates an asynchronous accept operation
-        // to wait for a new connection.
+
         acceptor_.async_accept(new_connection->socket(),
                                boost::bind(&tcp_server::handle_accept, this, new_connection,
                                            boost::asio::placeholders::error));
     }
 
-    // handle_accept() is called when the asynchronous accept operation
-    // initiated by start_accept() finishes. It services the client request
     void handle_accept(tcp_connection::pointer new_connection,
                        const boost::system::error_code& error)
     {
@@ -117,7 +113,6 @@ private:
             new_connection->start();
         }
 
-        // Call start_accept() to initiate the next accept operation.
         start_accept();
     }
 
@@ -126,6 +121,7 @@ private:
 
 int main()
 {
+    cout << "Server type: asio." << endl;
     try
     {
         boost::asio::io_service io_service;

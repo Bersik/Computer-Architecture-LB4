@@ -13,7 +13,7 @@
 #include <boost/serialization/string.hpp>
 #include <boost/serialization/vector.hpp>
 
-#define BUF_SIZE 65000
+#define BUF_SIZE 650000
 
 using namespace boost::archive;
 using namespace std;

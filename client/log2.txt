@@ -1,0 +1,107 @@
+Test at Sun Jun 21 21:23:33 2015
+time: 5.481593
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 21:23:51 2015
+time: 16.276401
+count task: 1000
+count ended task: 998
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 21:24:25 2015
+time: 6.274389
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 22:41:26 2015
+time: 24.258357
+count task: 1141
+count ended task: 729
+count task error: 412
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 22:43:37 2015
+time: 18.030436
+count task: 1299
+count ended task: 850
+count task error: 447
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 02:15:49 2015
+time: 49.919998
+count task: 100
+count ended task: 0
+count task error: 100
+count vertex: 3000
+count nodes: 5000
+
+---------------------------------
+Test at Mon Jun 22 02:17:26 2015
+time: 10.115804
+count task: 100
+count ended task: 100
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 02:18:00 2015
+time: 8.708941
+count task: 800
+count ended task: 800
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 02:18:19 2015
+time: 106.155375
+count task: 10000
+count ended task: 10000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 02:20:27 2015
+time: 150.273184
+count task: 10000
+count ended task: 10000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 02:26:02 2015
+time: 13.803586
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 02:27:59 2015
+time: 40.612743
+count task: 2500
+count ended task: 2500
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+

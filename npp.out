@@ -1,0 +1,3 @@
+[server/server.cpp:74]: (style) C-style pointer casting
+[server/server.cpp:88]: (style) The scope of the variable 'rqst' can be reduced.
+[tests/test_server.cpp:24]: (style) Variable 'name' is assigned a value that is never used.

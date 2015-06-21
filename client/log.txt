@@ -1,0 +1,1434 @@
+---------------------------------
+Test at Sun Jun 21 20:07:03 2015
+time(10): 10
+count task: 400
+count ended task: 307
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:08:36 2015
+time(10): 10
+count task: 900
+count ended task: 900
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:09:10 2015
+time(10): 11
+count task: 500
+count ended task: 417
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:12:10 2015
+time(10): 10
+count task: 400
+count ended task: 309
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:13:10 2015
+time(10): 12
+count task: 500
+count ended task: 411
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:17:29 2015
+time(10): 10
+count task: 400
+count ended task: 329
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:20:29 2015
+time(10): 10
+count task: 400
+count ended task: 317
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:20:50 2015
+time(10): 12
+count task: 500
+count ended task: 416
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:21:49 2015
+time(10): 10
+count task: 1100
+count ended task: 710
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:22:06 2015
+time(10): 10
+count task: 1000
+count ended task: 343
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:23:10 2015
+time(10): 10.147451
+count task: 1000
+count ended task: 310
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:23:40 2015
+time(10): 10.009054
+count task: 100
+count ended task: 81
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:24:04 2015
+time(10): 10.010472
+count task: 50
+count ended task: 39
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:24:27 2015
+time(10): 10.009920
+count task: 50
+count ended task: 41
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:24:51 2015
+time(10): 10.797553
+count task: 55
+count ended task: 55
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:25:07 2015
+time(10): 10.009483
+count task: 50
+count ended task: 50
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:25:46 2015
+time(10): 10.312076
+count task: 55
+count ended task: 55
+count vertex: 1000
+count nodes: 5000
+
+---------------------------------
+Test at Sun Jun 21 20:31:01 2015
+time(10): 10.009728
+count task: 50
+count ended task: 50
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 20:34:13 2015
+time(1): 1.001252
+count task: 1
+count ended task: 1
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 20:34:33 2015
+time(10): 10.008981
+count task: 100
+count ended task: 100
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 20:34:59 2015
+time(10): 10.010514
+count task: 100
+count ended task: 75
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Sun Jun 21 20:36:15 2015
+time(10): 10.008124
+count task: 100
+count ended task: 80
+count task error: 0count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Sun Jun 21 20:36:50 2015
+time(10): 10.009827
+count task: 100
+count ended task: 75
+count task error: 7count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Sun Jun 21 20:42:46 2015
+time(10): 10.004689
+count task: 1000
+count ended task: 1000
+count task error: 0count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 21:04:19 2015
+time(10): 10.862116
+count task: 1100
+count ended task: 210
+count task error: 860
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 21:04:37 2015
+time(10): 10.004813
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 21:16:59 2015
+time(10): 10.005666
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 22:59:02 2015
+time(10): 10.005081
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 23:02:17 2015
+time(10): 10.005315
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 23:02:49 2015
+time(10): 10.005442
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 23:03:19 2015
+time(10): 10.005124
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 23:04:13 2015
+time(10): 10.003535
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 23:04:30 2015
+time(10): 10.005479
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 23:21:17 2015
+time(10): 10.004346
+count task: 1000
+count ended task: 842
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Sun Jun 21 23:21:41 2015
+time(10): 10.007888
+count task: 1000
+count ended task: 18
+count task error: 980
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:05:17 2015
+time(20): 20.993462
+count task: 540
+count ended task: 380
+count task error: 3
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:06:24 2015
+time(10): 10.303248
+count task: 291
+count ended task: 176
+count task error: 4
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:07:03 2015
+time(10): 10.569313
+count task: 961
+count ended task: 2
+count task error: 959
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:07:59 2015
+time(10): 10.610780
+count task: 1438
+count ended task: 0
+count task error: 1437
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:09:15 2015
+time(10): 10.004404
+count task: 1500
+count ended task: 1017
+count task error: 479
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:13:55 2015
+time(10): 10.042420
+count task: 1336
+count ended task: 1016
+count task error: 317
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:14:17 2015
+time(10): 10.086005
+count task: 1106
+count ended task: 1016
+count task error: 88
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:15:23 2015
+time(10): 10.006532
+count task: 1500
+count ended task: 1019
+count task error: 475
+count vertex: 30
+count nodes: 80
+
+---------------------------------
+Test at Mon Jun 22 00:15:58 2015
+time(10): 10.006598
+count task: 1500
+count ended task: 1020
+count task error: 471
+count vertex: 30
+count nodes: 80
+
+---------------------------------
+Test at Mon Jun 22 00:16:17 2015
+time(10): 10.006513
+count task: 1500
+count ended task: 1499
+count task error: 0
+count vertex: 30
+count nodes: 80
+
+---------------------------------
+Test at Mon Jun 22 00:17:35 2015
+time(10): 10.277329
+count task: 290
+count ended task: 214
+count task error: 0
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:18:20 2015
+time(10): 10.003698
+count task: 1500
+count ended task: 1020
+count task error: 473
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:20:41 2015
+time(10): 10.014972
+count task: 1360
+count ended task: 1015
+count task error: 340
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:23:33 2015
+time(10): 10.032450
+count task: 1444
+count ended task: 1018
+count task error: 419
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:24:03 2015
+time(10): 10.003750
+count task: 1500
+count ended task: 1018
+count task error: 467
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:27:04 2015
+time(10): 10.090549
+count task: 1357
+count ended task: 1020
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:27:35 2015
+time(10): 10.028460
+count task: 1418
+count ended task: 1020
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:27:59 2015
+time(5): 5.002958
+count task: 736
+count ended task: 665
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:28:46 2015
+time(5): 5.001647
+count task: 750
+count ended task: 750
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:29:19 2015
+time(5): 5.001881
+count task: 750
+count ended task: 750
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:29:48 2015
+time(5): 5.001908
+count task: 750
+count ended task: 750
+count task error: 0
+count vertex: 300
+count nodes: 800
+
+---------------------------------
+Test at Mon Jun 22 00:30:24 2015
+time(5): 5.003286
+count task: 750
+count ended task: 0
+count task error: 738
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:30:41 2015
+time(5): 5.003352
+count task: 750
+count ended task: 0
+count task error: 744
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:31:52 2015
+time(5): 5.939352
+count task: 796
+count ended task: 1
+count task error: 795
+count vertex: 3000
+count nodes: 8000
+
+---------------------------------
+Test at Mon Jun 22 00:32:06 2015
+time(5): 5.573889
+count task: 900
+count ended task: 0
+count task error: 900
+count vertex: 3000
+count nodes: 5000
+
+---------------------------------
+Test at Mon Jun 22 00:32:33 2015
+time(5): 5.002195
+count task: 750
+count ended task: 743
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:32:52 2015
+time(5): 5.071175
+count task: 562
+count ended task: 550
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:33:10 2015
+time(5): 5.004756
+count task: 734
+count ended task: 734
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:33:20 2015
+time(5): 5.844432
+count task: 890
+count ended task: 286
+count task error: 592
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:33:33 2015
+time(5): 5.012871
+count task: 690
+count ended task: 681
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:34:22 2015
+time(5): 5.011764
+count task: 733
+count ended task: 733
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:34:45 2015
+time(5): 5.009567
+count task: 707
+count ended task: 616
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:34:54 2015
+time(5): 5.014126
+count task: 735
+count ended task: 625
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:35:05 2015
+time(5): 5.004210
+count task: 734
+count ended task: 624
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:35:36 2015
+time(10): 10.062356
+count task: 1380
+count ended task: 1214
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:36:34 2015
+time(10): 10.056935
+count task: 1392
+count ended task: 1020
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:38:25 2015
+time(10): 10.136303
+count task: 1013
+count ended task: 963
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:41:49 2015
+time(10): 10.047099
+count task: 1168
+count ended task: 1163
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:42:38 2015
+time(10): 10.002003
+count task: 1484
+count ended task: 1484
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:43:01 2015
+time(10): 10.035400
+count task: 899
+count ended task: 318
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 00:43:26 2015
+time(10): 10.085340
+count task: 816
+count ended task: 761
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 00:46:08 2015
+time(20): 20.298683
+count task: 1373
+count ended task: 428
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 00:47:21 2015
+time(20): 20.219136
+count task: 1810
+count ended task: 1020
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 00:48:02 2015
+time(20): 20.002909
+count task: 1525
+count ended task: 585
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 00:49:35 2015
+time(20): 20.089418
+count task: 2297
+count ended task: 2225
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:50:12 2015
+time(20): 20.161107
+count task: 2023
+count ended task: 1020
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:50:41 2015
+time(20): 20.379029
+count task: 1159
+count ended task: 0
+count task error: 241
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:51:44 2015
+time(20): 20.168759
+count task: 1952
+count ended task: 1020
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:52:34 2015
+time(20): 20.013654
+count task: 2996
+count ended task: 2996
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 00:55:55 2015
+time(20): 20.005444
+count task: 3000
+count ended task: 3000
+count task error: 0
+count vertex: 300
+count nodes: 700
+
+---------------------------------
+Test at Mon Jun 22 00:56:39 2015
+time(20): 20.187752
+count task: 2078
+count ended task: 1020
+count task error: 0
+count vertex: 300
+count nodes: 700
+
+---------------------------------
+Test at Mon Jun 22 00:57:16 2015
+time(20): 20.217052
+count task: 1706
+count ended task: 608
+count task error: 0
+count vertex: 300
+count nodes: 700
+
+---------------------------------
+Test at Mon Jun 22 01:02:24 2015
+time(20): 20.006695
+count task: 3000
+count ended task: 3000
+count task error: 0
+count vertex: 300
+count nodes: 700
+
+---------------------------------
+Test at Mon Jun 22 01:10:14 2015
+time(20): 20.019500
+count task: 2915
+count ended task: 2915
+count task error: 0
+count vertex: 300
+count nodes: 700
+
+---------------------------------
+Test at Mon Jun 22 01:15:18 2015
+time(20): 20.007139
+count task: 2994
+count ended task: 2994
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 01:16:11 2015
+time(20): 20.231345
+count task: 1921
+count ended task: 1907
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:16:51 2015
+time(20): 20.131300
+count task: 1852
+count ended task: 1842
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:17:32 2015
+time(20): 20.163539
+count task: 1891
+count ended task: 1878
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:18:10 2015
+time(20): 20.207378
+count task: 1738
+count ended task: 1158
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:19:13 2015
+time(20): 20.231584
+count task: 1812
+count ended task: 1796
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:20:15 2015
+time(20): 20.160566
+count task: 1888
+count ended task: 1877
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:21:00 2015
+time(20): 20.197974
+count task: 1931
+count ended task: 1918
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:21:51 2015
+time(20): 20.120614
+count task: 1905
+count ended task: 1893
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:22:25 2015
+time(20): 20.009970
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:22:59 2015
+time(20): 20.599929
+count task: 588
+count ended task: 0
+count task error: 96
+count vertex: 3000
+count nodes: 5000
+
+---------------------------------
+Test at Mon Jun 22 01:24:00 2015
+time(20): 20.011452
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:30:04 2015
+time(10): 10.500300
+count task: 1000
+count ended task: 981
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:30:35 2015
+time(10): 10.329957
+count task: 1000
+count ended task: 990
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:30:50 2015
+time(10): 12.448479
+count task: 1200
+count ended task: 1186
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:31:10 2015
+time(10): 16.655457
+count task: 1600
+count ended task: 1586
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:31:49 2015
+time(10): 10.368491
+count task: 1000
+count ended task: 992
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:32:27 2015
+time(10): 11.164454
+count task: 1000
+count ended task: 993
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:33:20 2015
+time(5): 8.385490
+count task: 400
+count ended task: 770
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:33:35 2015
+time(5): 6.227842
+count task: 600
+count ended task: 588
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:34:21 2015
+time(5): 6.290812
+count task: 600
+count ended task: 589
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:34:46 2015
+time(5): 5.003616
+count task: 200
+count ended task: 200
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:35:35 2015
+time(5): 5.001534
+count task: 400
+count ended task: 400
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:35:43 2015
+time(1): 1.000517
+count task: 80
+count ended task: 80
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:35:50 2015
+time(1): 1.010118
+count task: 100
+count ended task: 88
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:35:54 2015
+time(1): 2.070031
+count task: 200
+count ended task: 189
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:36:21 2015
+time(1): 2.527921
+count task: 200
+count ended task: 188
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:36:29 2015
+time(1): 2.056820
+count task: 200
+count ended task: 188
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:36:39 2015
+time(1): 1.005107
+count task: 200
+count ended task: 91
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:36:54 2015
+time(1): 1.004770
+count task: 93
+count ended task: 80
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:36:58 2015
+time(1): 1.006066
+count task: 97
+count ended task: 84
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:37:00 2015
+time(1): 1.013142
+count task: 110
+count ended task: 98
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:37:03 2015
+time(1): 1.001547
+count task: 107
+count ended task: 95
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:37:05 2015
+time(1): 1.000827
+count task: 98
+count ended task: 89
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:37:08 2015
+time(1): 1.005667
+count task: 103
+count ended task: 92
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:37:14 2015
+time(1): 1.005449
+count task: 106
+count ended task: 93
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:38:44 2015
+time(1): 1.006761
+count task: 99
+count ended task: 87
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:39:03 2015
+time(1): 1.013319
+count task: 99
+count ended task: 83
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:40:00 2015
+time(1): 1.001722
+count task: 102
+count ended task: 89
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:40:30 2015
+time(1): 1.007995
+count task: 104
+count ended task: 96
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:40:36 2015
+time(1): 1.001356
+count task: 97
+count ended task: 85
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:40:46 2015
+time(1): 1.010973
+count task: 102
+count ended task: 90
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:41:06 2015
+time(1): 1.002446
+count task: 100
+count ended task: 90
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:41:11 2015
+time(1): 1.000454
+count task: 40
+count ended task: 40
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:41:15 2015
+time(1): 1.000949
+count task: 40
+count ended task: 40
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:41:17 2015
+time(1): 1.000469
+count task: 40
+count ended task: 40
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:42:15 2015
+time(1): 1.010128
+count task: 38
+count ended task: 38
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:42:34 2015
+time(1): 1.019833
+count task: 41
+count ended task: 41
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:42:46 2015
+time(1): 1.000598
+count task: 40
+count ended task: 40
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:42:50 2015
+time(1): 1.022016
+count task: 104
+count ended task: 88
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:50:04 2015
+time(1): 1.001246
+count task: 91
+count ended task: 78
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:50:14 2015
+time(1): 1.004744
+count task: 100
+count ended task: 89
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:51:14 2015
+time(20): 20.091260
+count task: 1909
+count ended task: 1901
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:51:46 2015
+time(20): 20.087796
+count task: 1780
+count ended task: 1780
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:52:37 2015
+time(20): 20.171760
+count task: 1967
+count ended task: 1955
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:53:35 2015
+time(20): 20.165451
+count task: 1953
+count ended task: 1947
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:54:16 2015
+time(20): 20.320098
+count task: 1613
+count ended task: 1280
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:55:16 2015
+time(20): 20.090624
+count task: 1483
+count ended task: 1190
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:56:08 2015
+time(20): 20.006886
+count task: 1500
+count ended task: 1500
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:56:39 2015
+time(20): 20.006915
+count task: 1500
+count ended task: 1500
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:57:35 2015
+time(20): 20.011972
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:58:14 2015
+time(20): 20.011895
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 01:58:52 2015
+time(20): 20.013096
+count task: 1000
+count ended task: 1000
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 02:00:24 2015
+time(20): 20.057090
+count task: 1964
+count ended task: 1364
+count task error: 0
+count vertex: 800
+count nodes: 1500
+
+---------------------------------
+Test at Mon Jun 22 02:01:34 2015
+time(20): 20.006075
+count task: 2000
+count ended task: 2000
+count task error: 0
+count vertex: 800
+count nodes: 1500
+
+---------------------------------
+Test at Mon Jun 22 02:05:22 2015
+time(20): 20.005015
+count task: 2000
+count ended task: 1835
+count task error: 0
+count vertex: 800
+count nodes: 1500
+
+---------------------------------
+Test at Mon Jun 22 02:10:30 2015
+time(20): 20.014741
+count task: 1997
+count ended task: 1997
+count task error: 0
+count vertex: 800
+count nodes: 1500
+
+---------------------------------
+Test at Mon Jun 22 02:11:18 2015
+time(20): 20.006053
+count task: 2000
+count ended task: 2000
+count task error: 0
+count vertex: 800
+count nodes: 1500
+
+---------------------------------
+Test at Mon Jun 22 02:12:28 2015
+time(20): 20.077537
+count task: 1855
+count ended task: 1257
+count task error: 0
+count vertex: 1000
+count nodes: 2000
+
+---------------------------------
+Test at Mon Jun 22 02:13:30 2015
+time(20): 20.010422
+count task: 2000
+count ended task: 2000
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 02:14:13 2015
+time(20): 20.009149
+count task: 2000
+count ended task: 2000
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 02:14:56 2015
+time(20): 20.009168
+count task: 2000
+count ended task: 2000
+count task error: 0
+count vertex: 500
+count nodes: 1000
+
+---------------------------------
+Test at Mon Jun 22 02:51:07 2015
+time(20): 20.507457
+count task: 420
+count ended task: 1
+count task error: 419
+count vertex: 3000
+count nodes: 6000
+
