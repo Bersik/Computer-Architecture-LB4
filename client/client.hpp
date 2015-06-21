@@ -19,8 +19,7 @@
 #include<string>  //string
 #include "../server/task.hpp"
 
-
-#define BUF_SIZE 10000
+#define PORT 5454
 
 
 #endif //LB4_CLIENT_HPP

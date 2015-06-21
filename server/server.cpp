@@ -17,6 +17,8 @@
 #include "../headers/serialization.hpp"
 #include "task.hpp"
 
+#define PORT 5454
+
 
 using namespace boost::archive;
 using namespace std;
@@ -88,7 +90,7 @@ int main(int argc, char **argv) {
             return EXIT_FAILURE;
         }
     }
-    uint16_t port = 5559;    /* port number */
+    uint16_t port = PORT;    /* port number */
     int rqst;       /* socket accepting the request */
     socklen_t alen;       /* length of address structure */
     struct sockaddr_in server_addr;    /* address of this service */

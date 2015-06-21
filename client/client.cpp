@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
     srand(time(NULL));
     int num_nodes = NUM_NODES;
     unsigned long num_vert = NUM_VERT;
-    int start_point = rand() % NUM_VERT;
+    int start_point = -1;
 
     switch (argc){
         int a;
@@ -36,25 +36,27 @@ int main(int argc, char **argv) {
                 break;
         case 3:
             if ((a = atoi(argv[2]))!=0){
-                num_vert = a;
+                num_nodes = a;
             } else
                 break;
         case 2:
             if ((a = atoi(argv[1]))!=0){
-                num_nodes = a;
+                num_vert = a;
             }
             break;
         default:
             cout << "Incorrect parameters. Selected by default." << endl;
             break;
     }
+    if (start_point < 0)
+        start_point = rand() % num_vert;
 
     cout << "Count vertex=" << num_vert << ";" << endl;
     cout << "Count nodes=" << num_nodes << ";" << endl;
     cout << "Start vertex=" << start_point << "." << endl << endl;
 
     const char *host = "localhost";
-    uint16_t port = 5559;
+    uint16_t port = PORT;
     int svc;
     string data;
     char buffer[BUF_SIZE];
